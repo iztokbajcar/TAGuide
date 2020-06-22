@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".PlanetsActivity">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:id="@+id/planetsLayout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:orientation="vertical">
+
+			<!-- ARCHIPELAGO -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Archipelago" />
+
+				<ImageView
+					android:id="@+id/archiRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/archiPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- DESERT -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Desert" />
+
+				<ImageView
+					android:id="@+id/desertRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/desertPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- GREEN WORLD -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Green world" />
+
+				<ImageView
+					android:id="@+id/greenRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/greenPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- LAVA -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Lava" />
+
+				<ImageView
+					android:id="@+id/lavaRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/lavaPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- LUNAR2 -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Lunar 2" />
+
+				<ImageView
+					android:id="@+id/lunar2Rotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/lunar2Pan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- LUNAR -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Lunar" />
+
+				<ImageView
+					android:id="@+id/lunarRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/lunarPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- MARS -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Mars" />
+
+				<ImageView
+					android:id="@+id/marsRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/marsPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- METAL -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Metal" />
+
+				<ImageView
+					android:id="@+id/metalRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/metalPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<!-- WET DESERT -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal"
+					android:textSize="25dp"
+					android:text="Wet Desert" />
+
+				<ImageView
+					android:id="@+id/wetRotate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#00ffff"
+					android:layout_gravity="center_horizontal"/>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<HorizontalScrollView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<ImageView
+								android:id="@+id/wetPan"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:background="#00ffff"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
